@@ -131,3 +131,7 @@ app.post('/getmessage', async (req, res) => {
         res.send(err)
     }
 })
+
+app.get('/',(req,res)=>{
+    res.send("<h1>Hello</h1>")
+})
